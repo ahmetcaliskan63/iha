@@ -1,11 +1,11 @@
 #VRML_SIM R2023b utf8
 
 WorldInfo {
+  basicTimeStep 32
+  title "My Drone Simulation"
   info [
-    "Drone simulation world"
+    "A simulation of a drone in a simple environment."
   ]
-  title "Drone Simulation"
-  basicTimeStep 20
   coordinateSystem "NUE"
   contactProperties []
 }
