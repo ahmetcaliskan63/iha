@@ -1,2 +1,4 @@
-type: demo
-publish: true
+name: "My Drone Simulation"
+version: "R2023b"
+world: "worlds/my_drone.wbt"
+controller: "controllers/my_drone_controller"
