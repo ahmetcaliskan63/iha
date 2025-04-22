@@ -1,4 +1,3 @@
-name: "My Drone Simulation"
-version: "R2023b"
-world: "worlds/my_drone.wbt"
-controller: "controllers/my_drone_controller"
+world: worlds/my_drone.wbt
+version: R2023b
+controller: controllers/my_controller/controller.py

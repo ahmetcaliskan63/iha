@@ -1,26 +1,24 @@
 #VRML_SIM R2023b utf8
 
 WorldInfo {
-  basicTimeStep 32
-  title "My Drone Simulation"
-  info [
-    "A simulation of a drone in a simple environment."
-  ]
-  coordinateSystem "NUE"
-  contactProperties []
+  info [ "Drone simulation on a runway" ]
+  title "Drone Runway Simulation"
+  basicTimeStep 40
+  coordinateSystem "ENU"
 }
 
 Viewpoint {
   orientation -0.4 0.4 0.8 1.0
-  position 2.0 2.0 2.0
+  position 4 4 4
 }
 
-TexturedBackground {
-}
-
-TexturedBackgroundLight {
-}
+TexturedBackground { }
+TexturedBackgroundLight { }
 
 RectangleArena {
-  floorSize 10 10
+  floorSize 10 20
+  floorTileSize 1
+  floorAppearance "runway"
 }
+
+# Drone eklemeyi daha sonra yapacağız
